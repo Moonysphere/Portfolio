@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.topfacture h2{
+    font-size: 2rem;
+margin: 1rem 2rem 0rem 0rem;
+}
+.topfacture{
+    display: flex;
+    gap: 18rem;
+}
+.logo{
+    width: 22rem;
+}
+.box{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 5rem 0rem 0rem 20rem;
+    background-color: rgb(250, 246, 241);
+}
+.adresse ul{
+    font: 1rem;
+    margin: 4rem 0rem 0rem 2rem;
+    list-style: none;
+}
+.num ul{
+    font: 1rem;
+    margin: 7rem 0rem 0rem 32.5rem;
+    list-style: none;
+}
+table td{
+    padding-top: 5px;
+}
+table th{
+    color: white;
+    text-align: center;
+    background-color: #333;
+}
+.table1{
+    margin: 3rem 0rem 0rem 2.5rem;
+    width: 45rem;
+    border: 1px solid #333;
+    border-collapse: separate;
+}
+.table2{
+
+    margin: 3rem 0rem 7rem 32.5rem;
+    width: 13rem;
+    border: 1px solid #333;
+    border-collapse: separate;
+
+}
+.resultat td{
+    text-align: right;
+}
+
+.lign1{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.mention{
+    width: 40rem;
+    margin: 5rem 0rem 2.5rem 4.5rem;
+    text-align: center;
+    font-size: 0.6rem;
+}
