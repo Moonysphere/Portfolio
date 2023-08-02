@@ -1,3 +1,14 @@
+// navburger
+const hamburger = document.querySelector(".navtoggler");
+const navi = document.querySelector(".burger");
+
+hamburger.addEventListener("click", togglenav);
+
+function togglenav() {
+  hamburger.classList.toggle("active");
+  navi.classList.toggle("active");
+}
+
 /*slider*/
 const items = document.querySelectorAll(".card img");
 const nbSlide = items.length;
