@@ -53,6 +53,6 @@ window.addEventListener("scroll", () => {
   if (window.scrollY < 720) {
     navbar.style.top = 0;
   } else if (window.scrollY > 720) {
-    navbar.style.top = "-75px";
+    navbar.style.top = "-150px";
   }
 });

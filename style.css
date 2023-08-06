@@ -134,7 +134,7 @@ nav{
 nav a{
 text-decoration: none;
 color: rgb(255, 255, 255);
-padding: 0% 0% 0% 15%;
+padding: 0% 1% 0% 15%;
 }
 ul{
     list-style: none;
@@ -148,8 +148,29 @@ li{
    font-weight: 100;
 }
 
+/* butoon */
 
-
+a.my-button{
+    background: linear-gradient(to right,#191825 ,#8E4392);
+    background-color: #196BCA;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+   }
+   a.my-button:hover{
+    background: linear-gradient(to right,#333151 ,#ad51b1);
+    background-color: #5482d0;
+   }
+   a.my-button:active{
+    transform: scale(0.95);
+   }
 
 
 
@@ -183,7 +204,7 @@ background-color: rgb(89, 85, 85);
 }
 .first-box img{
     position: relative;
-   width: 120%;
+   width: 100%;
  
        
     }
@@ -282,6 +303,7 @@ img.active{
 border: 1px solide lightgray;
 padding: 0px;
 overflow: hidden;
+text-align: center;
 }
 
 
@@ -314,21 +336,10 @@ margin-bottom: 7rem;
 color: rgb(255, 255, 255);
 text-shadow: 1px 1px 25px black;   
 }
-.overlay a{
-    color: #c4c0d0;
-    text-shadow: 1px 1px 2px black;    
-    text-decoration: none;
-    font-size: 2rem;
-    border: 2px solid black;
-    padding: 0.5%;
-    border-radius: 15px;
 
-}
 
-.overlay a:hover{
 
-    color: rgb(255, 255, 255);
-}
+
 .overlay p{
     font-weight: 100;
     font-size: 1.5rem;
@@ -591,21 +602,12 @@ margin-bottom: 0.3rem;
 color: rgb(255, 255, 255);
 text-shadow: 1px 1px 25px black;   
 }
-.overlay a{
-    color: #121212;
-    text-shadow: 0px 0px 2px black;    
-    text-decoration: none;
-    font-size: 0.7rem;
-    border: 0px solid black;
-    padding: 0.5%;
-    border-radius: 15px;
 
+a.my-button{
+    padding: 4px 6px;
+    font-size: 10px;
 }
 
-.overlay a:hover{
-
-    color: rgb(255, 255, 255);
-}
 .overlay p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
