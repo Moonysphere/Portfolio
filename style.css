@@ -466,7 +466,7 @@ text-align: center;
    
 }
 .reseaux img:hover{
-    background-color: #196BCA;
+   
     margin: 4rem 4rem 1rem 4rem;
     transform: scale(1.5) rotateY(-360deg);
 
