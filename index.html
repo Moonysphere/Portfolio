@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Baptiste</title>
+    <link rel="icon" href="ressources/logo_ghost.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar fixe avec burger -->
+    <header class="navbar">
+        <nav>
+            <h1 class="logo">Baptiste ROY</h1>
+            <div class="burger" id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+            <a class="cv" href="ressources/CV_Baptiste_ROY.pdf" target="_blank" id="cv-link">voir mon CV</a>
+        </nav>
+    </header>
+
+    <!-- Section À propos -->
+    <!-- Section À propos -->
+<section id="about" class="about-section">
+    <div class="circles-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+    <h2>À propos de moi</h2>
+    <p>
+
+Je suis un étudiant en Bachelor Chef de Projet Digital, spécialisé en développement web, avec trois ans d'expérience dans le domaine. Diplômé d'un Bac Pro en Communication Visuelle Plurimédia, j'ai acquis des compétences solides en conception graphique et en médias numériques. Je maîtrise les langages PHP, HTML, CSS, JavaScript ainsi que les frameworks Symfony et React. Reconnu pour mon autonomie, mon sens de l'organisation et votre motivation,  j'excelle aussi bien en équipe qu'en travail individuel.
+    </p>
+</section>
+
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills-section">
+        
+        <h2>Compétences</h2>
+        <div class='wave -one'> </div>
+    <div class='wave -two'></div>
+        <div class="skills-container">
+            <div class="skill" data-skill="95">
+                <p>HTML</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+            
+            <div class="skill" data-skill="95">
+                <p>CSS</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+            
+            <div class="skill" data-skill="75">
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+            
+            <div class="skill" data-skill="25">
+                <p>React</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+            
+            <div class="skill" data-skill="50">
+                <p>PHP</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+            
+            <div class="skill" data-skill="25">
+                <p>SQL</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+
+            <div class="skill" data-skill="75">
+                <p>Linux</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+
+            <div class="skill" data-skill="95">
+                <p>Adobe (Photoshop, Illustrator etc...)</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="percentage">0%</span>
+                    <span class="level">Base</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <!-- Section Projets -->
+    <section id="projects" class="projects-section">
+        <h2>Projets</h2>
+        <div class="projects-container">
+            <div class="card card-1">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Projet 1</h3>
+                        <p>Movie.liste</p>
+                        <a href="#" class="flip-link">></a>
+                    </div>
+                    <div class="card-back">
+                        <p>Technologies utilisées : React, HTML, CSS</p>
+                        <a class="gitlink" href="https://github.com/Moonysphere/Fleet_test">lien GitHub</a>
+                        <span class="close">✕</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-2">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Projet 2</h3>
+                        <p>Refonte site</p>
+                        <a href="#" class="flip-link">></a>
+                    </div>
+                    <div class="card-back">
+                        <p>Technologies utilisées : HTML, CSS</p>
+                        <a class="gitlink" href="https://github.com/Moonysphere/Projet_Ecole_Refonte_MDF">lien GitHub</a>
+                        <span class="close">✕</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-3">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Projet 3</h3>
+                        <p>PHP facture</p>
+                        <a href="#" class="flip-link">></a>
+                    </div>
+                    <div class="card-back">
+                        <p>Technologies utilisées : PHP, CSS</p>
+                        <a class="gitlink" href="https://github.com/Moonysphere/Projet_Facture_PHP">lien GitHub</a>
+                        <span class="close">✕</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-4">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Projet 4</h3>
+                        <p>Air Quality</p>
+                        <a href="#" class="flip-link">></a>
+                    </div>
+                    <div class="card-back">
+                        <p>Technologies utilisées : HTML, CSS, JS</p>
+                        <a class="gitlink" href="https://github.com/Moonysphere/APP_AIR_QUALITY">lien GitHub</a>
+                        <span class="close">✕</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/baptiste-roy-292a8420b/">Linkedin</a></li>
+            <li><a href="https://github.com/Moonysphere">GitHub</a></li>
+            <li><a href="mailto:baptisteroy.co@gmail.com">Mail</a></li>
+<li><a href="ressources/CV_Baptiste_ROY.pdf" target="_blank" id="cv-link">CV</a></li>
+
+        </ul>
+        <p>© 2024 Baptiste - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
